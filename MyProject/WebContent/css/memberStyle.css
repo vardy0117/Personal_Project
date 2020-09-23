@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+@font-face { font-family: 'Cafe24Ohsquare'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff'); font-weight: normal; font-style: normal; }
+body{
+	font-family: 'Cafe24Ohsquare';
+}
+
+/* 상단 header영역 */
+#dogImg{
+	width: 600px;
+	height: 200px;
+	margin-left: 250px;
+}
+body{
+	width:1100px;
+	margin: auto;
+	background-color: white;
+}
+#menu li{
+	background-color: silver;
+	width: 1100px;
+	text-align: right;
+}
+#menu a{
+	text-decoration: none;
+	color: black;
+	margin-right: 200px;
+}
+#menu a:HOVER{
+	color: red;
+	text-align: center;
+}
+
+#menu li{
+	list-style: none;
+	display: inline;
+}
+
+#menu{
+	color: silver;
+}
+#menu a{
+	text-align: center;
+	float: right;
+}
+
+.loginJoin{
+	margin-top:20px;
+	clear:both;
+	float: right;
+	display: grid;
+}
+.loginJoin a{
+	text-decoration: none;
+	color: black;
+}
+.loginJoin a:HOVER{
+	color: red;
+}
+
+#memberSearch{
+	cursor:pointer;
+}
+
+
+#galaryT{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+#galaryT img{
+	width: 150px;
+	height: 100px;
+}
+input[type="button"]{
+	background-color: black;
+	border: 1px solid black;
+	border-radius:5px;
+	color: white;
+	font-weight: bold;
+}
+input[type="button"]:hover{
+	background-color: teal;
+	border: 1px solid teal;
+	border-radius:5px;
+	color: white;
+	font-weight: bold;
+}
+.btn{
+	background-color: black;
+	border: 1px solid black;
+	border-radius:5px;
+	color: white;
+	font-weight: bold;
+}
+.btn:hover{
+	background-color: teal;
+	border: 1px solid teal;
+	border-radius:5px;
+	color: white;
+	font-weight: bold;
+}
+/*            ------------------------------                  */
+#body{
+	min-height: 700px;
+}
+
+
+/*             ----------------------------- */
+footer{
+	background-color: silver;
+	clear: both;
+}
+	

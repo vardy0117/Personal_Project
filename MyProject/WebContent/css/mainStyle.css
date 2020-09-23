@@ -1,0 +1,197 @@
+@CHARSET "UTF-8";
+@font-face { font-family: 'Cafe24Ohsquare'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff'); font-weight: normal; font-style: normal; }
+body{
+	font-family: 'Cafe24Ohsquare';
+}
+/* 상단 header영역 */
+#dogImg{
+	width: 600px;
+	height: 200px;
+	margin-left: 250px;
+}
+body{
+	width:1100px;
+	margin: auto;
+	background-color: white;
+}
+#menu li{
+	background-color: silver;
+	width: 1100px;
+	text-align: right;
+}
+#menu a{
+	text-decoration: none;
+	color: black;
+	margin-right: 200px;
+}
+#menu a:HOVER{
+	color: red;
+	text-align: center;
+}
+
+#menu li{
+	list-style: none;
+	display: inline;
+}
+#menu a{
+	margin: 0 auto;
+	padding: auto;
+	margin-right: 40px;
+}
+#menu{
+	color: silver;
+}
+#menu a{
+	text-align: center;
+	float: right;
+}
+
+.loginJoin{
+	margin-top:20px;
+	clear:both;
+	float: right;
+	display: grid;
+	margin-right: 10px;
+}
+.loginJoin a{
+	text-decoration: none;
+	color: black;
+}
+.loginJoin a:HOVER{
+	color: red;
+}
+
+#memberSearch{
+	cursor:pointer;
+}
+
+
+#galaryT{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+#galaryT img{
+	width: 150px;
+	height: 100px;
+}
+
+/*            ------------------------------                  */
+
+
+article{
+	margin-top: 50px;
+}
+
+header{
+	overflow: hidden;
+}
+#body{
+	min-height: 700px;
+	
+}
+
+.fade2{
+	background-image: url("img/map.png");
+	width:1100px;
+	height: 600px;
+	background-attachment: fixed;
+}
+
+.fade3 img{
+	float: left;
+	height: 550px;
+	width: 550px;
+}
+
+#f3{
+	height: 50px;
+	background-color: #006f83;;
+	margin-top: 50px; 
+	color: white;
+	font-family: -webkit-pictograph;
+}
+
+
+/* 자동 슬라이드 구현 CSS */
+.slide_box{
+     width: 1100px;
+     height:550px;
+    left: 50%;
+    margin-left: -100px;
+    top: 400px;
+    z-index: 100;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.slide_wrap{
+    background: red;
+    width: 4400px;
+    margin: 0;
+    padding: 0;
+}
+.slide_item{
+    background: green;
+    width: 1100px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+.slide_item a{
+    text-decoration: none;
+    color : black;
+}	
+.slide_item img{
+	width:1100px;
+	height: 550px;
+	background-color: white;
+}
+#img1 img{
+/* 	  background-color: #feac1f; */
+	  background-color: orange;
+}
+#img2 img{
+/* 	background-color: #9cb7c7; */
+	background-color: yellow;
+}
+#img3 img{
+/* 	background-color: #e6b3d2; */
+	background-color: #19ce60;
+}
+#img4 img{
+/* 	background-color: #82cdb1; */
+	background-color: skyblue;
+}
+#dogInfo{
+	background-color: silver;
+	padding-bottom: 10px;
+	height: 50px;
+}
+#dogInfo li{
+	padding-top: 22px;
+}
+#dogInfo li span{
+	font-family: fantasy;
+	color: #f2faf7;
+}
+input[type="button"]{
+	background-color: black;
+	border: 1px solid black;
+	border-radius:5px;
+	color: white;
+	font-weight: bold;
+}
+input[type="button"]:hover{
+	background-color: teal;
+	border: 1px solid teal;
+	border-radius:5px;
+	color: white;
+	font-weight: bold;
+}
+
+/*             ----------------------------- */
+footer{
+	background-color: silver;
+	clear: both;
+}
